@@ -7,7 +7,6 @@
 
 int main() {
     int i, m, n, large, small, gcd, lcm, rem, curtime;
-//    long curtime, lcm;
     curtime = time(NULL);  /* Current time (in seconds since 1/1/1970) */
     printf("Current time is %d\n\n", curtime);
     srand((unsigned int) curtime); /* Seed for random number generator */
