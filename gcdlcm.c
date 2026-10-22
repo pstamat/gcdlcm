@@ -1,9 +1,10 @@
 /* File: gcdlcm.c */
+
 #include <stdio.h>
-#include <stdlib.h>      /* Header file for srand and rand functions */
-#include <time.h>                   /* Header file for time function */
-#define COMPUTATIONS 20   /* Pairs of numbers to compute GCD and LCM */
-#define MAXNUMB 30000                              /* Maximum number */
+#include <stdlib.h>        /* Header file for srand and rand functions */
+#include <time.h>                     /* Header file for time function */
+#define COMPUTATIONS 20     /* Pairs of numbers to compute GCD and LCM */
+#define MAXNUMB 30000                                /* Maximum number */
 
 int main() {
     int i, m, n, large, small, gcd, lcm, rem, curtime;
